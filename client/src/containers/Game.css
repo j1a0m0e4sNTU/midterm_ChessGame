@@ -1,0 +1,35 @@
+body {
+    background-color: beige;
+
+}
+
+.Game {
+    display: flex;
+    flex-direction: row;
+    margin: 10% 10%;
+    justify-content: center;
+}
+
+.Game h1 {
+    display: flex;
+    color: green;
+    margin: 40px 0px;
+}
+.BoardContainer {
+    position: relative;
+}
+.Piece {
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+}
+
+.restartButton {
+    cursor: pointer;
+    margin: 50px 100px;
+    font-size: 2em;
+    width: 150px;
+    height: 100px;
+    color: black;
+    background-color: gold;
+}
